@@ -29,19 +29,19 @@ src="https://www.facebook.com/tr?id=2272793183535149&ev=PageView&noscript=1"
 
   <style>
     :root{
-      --bg:#0E1512;
-      --bg-raised:#162019;
-      --bg-raised-2:#1B2620;
-      --cream:#F4EFE4;
-      --cream-dim:rgba(244,239,228,0.64);
-      --cream-faint:rgba(244,239,228,0.40);
-      --line:rgba(244,239,228,0.10);
-      --line-strong:rgba(244,239,228,0.20);
-      --gold:#D9A75A;
-      --gold-soft:rgba(217,167,90,0.14);
+      --bg:#FBF6ED;
+      --bg-raised:#FFFFFF;
+      --bg-raised-2:#F3E9D8;
+      --cream:#2B2118;
+      --cream-dim:rgba(43,33,24,0.64);
+      --cream-faint:rgba(43,33,24,0.42);
+      --line:rgba(43,33,24,0.10);
+      --line-strong:rgba(43,33,24,0.18);
+      --gold:#B8791F;
+      --gold-soft:rgba(184,121,31,0.13);
       --coral:#E2693F;
-      --coral-soft:rgba(226,105,63,0.16);
-      --shadow:0 24px 60px rgba(0,0,0,0.45);
+      --coral-soft:rgba(226,105,63,0.12);
+      --shadow:0 20px 50px rgba(43,33,24,0.16);
     }
     *,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}
     html{scroll-behavior:smooth;overflow-x:hidden;}
@@ -66,7 +66,7 @@ src="https://www.facebook.com/tr?id=2272793183535149&ev=PageView&noscript=1"
     .form-box-sub{font-size:12.5px;color:var(--cream-faint);text-align:center;margin-bottom:24px;}
     .fgroup{margin-bottom:13px;}
     .fgroup label{display:block;font-size:10px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;color:var(--cream-faint);margin-bottom:6px;}
-    .fgroup input,.fgroup select{width:100%;padding:12px 14px;background:rgba(244,239,228,0.04);border:1.5px solid var(--line-strong);border-radius:10px;font-family:'Manrope',sans-serif;font-size:13.5px;color:var(--cream);outline:none;transition:all 0.25s;-webkit-appearance:none;}
+    .fgroup input,.fgroup select{width:100%;padding:12px 14px;background:rgba(43,33,24,0.035);border:1.5px solid var(--line-strong);border-radius:10px;font-family:'Manrope',sans-serif;font-size:13.5px;color:var(--cream);outline:none;transition:all 0.25s;-webkit-appearance:none;}
     .fgroup input::placeholder{color:var(--cream-faint);}
     .fgroup select option{background:var(--bg-raised);color:var(--cream);}
     .fgroup input:focus,.fgroup select:focus{border-color:var(--gold);background:var(--gold-soft);}
@@ -77,14 +77,14 @@ src="https://www.facebook.com/tr?id=2272793183535149&ev=PageView&noscript=1"
     .form-status{text-align:center;font-size:12px;margin-top:10px;min-height:16px;color:#9AD8A8;}
 
     /* ===== Hero ===== */
-    .hero{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;text-align:center;padding:64px 20px 56px;position:relative;overflow:hidden;background:radial-gradient(120% 80% at 50% -10%,#172620 0%,var(--bg) 60%);}
-    .hero-glow-a{position:absolute;width:640px;height:640px;background:radial-gradient(circle,rgba(217,167,90,0.16) 0%,transparent 65%);top:-220px;left:50%;transform:translateX(-50%);animation:driftA 9s ease-in-out infinite;pointer-events:none;}
+    .hero{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;text-align:center;padding:64px 20px 56px;position:relative;overflow:hidden;background:radial-gradient(120% 80% at 50% -10%,#FFF8EA 0%,var(--bg) 60%);}
+    .hero-glow-a{position:absolute;width:640px;height:640px;background:radial-gradient(circle,rgba(184,121,31,0.16) 0%,transparent 65%);top:-220px;left:50%;transform:translateX(-50%);animation:driftA 9s ease-in-out infinite;pointer-events:none;}
     .hero-glow-b{position:absolute;width:420px;height:420px;background:radial-gradient(circle,rgba(226,105,63,0.10) 0%,transparent 65%);bottom:-120px;right:-100px;animation:driftB 11s ease-in-out infinite;pointer-events:none;}
     @keyframes driftA{0%,100%{transform:translateX(-50%) scale(1)}50%{transform:translateX(-50%) scale(1.12)}}
     @keyframes driftB{0%,100%{transform:scale(1)}50%{transform:scale(1.14)}}
     .hero-path{position:absolute;top:0;left:0;width:100%;height:420px;opacity:0.55;pointer-events:none;}
 
-    .hero-badge{display:inline-flex;align-items:center;gap:9px;background:rgba(217,167,90,0.08);border:1px solid rgba(217,167,90,0.35);color:var(--gold);font-size:11.5px;font-weight:700;letter-spacing:2px;text-transform:uppercase;padding:9px 18px;border-radius:100px;margin-bottom:28px;position:relative;z-index:1;animation:fadeUp 0.7s ease both;}
+    .hero-badge{display:inline-flex;align-items:center;gap:9px;background:rgba(184,121,31,0.08);border:1px solid rgba(184,121,31,0.35);color:var(--gold);font-size:11.5px;font-weight:700;letter-spacing:2px;text-transform:uppercase;padding:9px 18px;border-radius:100px;margin-bottom:28px;position:relative;z-index:1;animation:fadeUp 0.7s ease both;}
     .live-dot{width:7px;height:7px;background:var(--coral);border-radius:50%;animation:liveBlink 1.6s infinite;}
     @keyframes liveBlink{0%,100%{opacity:1;box-shadow:0 0 0 0 rgba(226,105,63,0.5)}50%{opacity:0.4;box-shadow:0 0 0 6px rgba(226,105,63,0)}}
 
@@ -111,10 +111,10 @@ src="https://www.facebook.com/tr?id=2272793183535149&ev=PageView&noscript=1"
     .coach-name{font-size:clamp(2rem,6vw,2.9rem);font-weight:600;color:var(--cream);margin-bottom:6px;}
     .coach-name .em{font-weight:500;}
     .coach-roles{display:flex;flex-wrap:wrap;gap:9px;justify-content:center;margin:18px 0 24px;}
-    .coach-role{display:flex;align-items:center;gap:6px;background:rgba(244,239,228,0.04);border:1px solid var(--line-strong);color:var(--cream-dim);font-size:13px;font-weight:600;padding:9px 16px;border-radius:100px;}
+    .coach-role{display:flex;align-items:center;gap:6px;background:rgba(43,33,24,0.035);border:1px solid var(--line-strong);color:var(--cream-dim);font-size:13px;font-weight:600;padding:9px 16px;border-radius:100px;}
     .coach-role svg{width:14px;height:14px;flex-shrink:0;color:var(--gold);}
 
-    .vision-card{border-left:2px solid var(--gold);background:rgba(217,167,90,0.05);border-radius:0 12px 12px 0;padding:18px 22px;max-width:440px;margin:0 auto 28px;text-align:left;}
+    .vision-card{border-left:2px solid var(--gold);background:rgba(184,121,31,0.05);border-radius:0 12px 12px 0;padding:18px 22px;max-width:440px;margin:0 auto 28px;text-align:left;}
     .vision-title{font-size:11px;font-weight:700;color:var(--gold);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:8px;}
     .vision-text{font-family:'Fraunces',serif;font-size:18px;font-style:italic;font-weight:500;color:var(--cream);line-height:1.5;}
 
@@ -151,8 +151,8 @@ src="https://www.facebook.com/tr?id=2272793183535149&ev=PageView&noscript=1"
     .process-row{position:relative;display:grid;grid-template-columns:repeat(4,1fr);gap:18px;max-width:920px;margin:0 auto;}
     .process-row::before{content:'';position:absolute;top:21px;left:calc(12.5% );right:calc(12.5%);height:1px;background:var(--line-strong);z-index:0;}
     .process-card{position:relative;z-index:1;background:var(--bg-raised);border:1px solid var(--line-strong);border-radius:16px;padding:26px 20px;transition:all 0.3s ease;}
-    .process-card:hover{transform:translateY(-4px);border-color:rgba(217,167,90,0.35);}
-    .process-num{font-family:'Fraunces',serif;font-size:14px;font-weight:700;color:var(--bg);width:42px;height:42px;border-radius:50%;background:var(--gold);display:flex;align-items:center;justify-content:center;margin-bottom:16px;}
+    .process-card:hover{transform:translateY(-4px);border-color:rgba(184,121,31,0.35);}
+    .process-num{font-family:'Fraunces',serif;font-size:14px;font-weight:700;color:#FFFFFF;width:42px;height:42px;border-radius:50%;background:var(--gold);display:flex;align-items:center;justify-content:center;margin-bottom:16px;}
     .process-title{font-size:16.5px;font-weight:700;color:var(--cream);margin-bottom:7px;}
     .process-desc{font-size:13.5px;color:var(--cream-faint);line-height:1.6;}
     .get-started-wrap{text-align:center;margin-top:36px;}
@@ -181,7 +181,7 @@ src="https://www.facebook.com/tr?id=2272793183535149&ev=PageView&noscript=1"
     .faq-q{width:100%;background:none;border:none;text-align:left;padding:20px 4px;font-family:'Manrope',sans-serif;font-size:15px;font-weight:600;color:var(--cream-dim);cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:16px;transition:color 0.2s;}
     .faq-q:hover{color:var(--cream);}
     .faq-icon{width:26px;height:26px;border-radius:50%;background:transparent;border:1.5px solid var(--line-strong);color:var(--cream-faint);display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:600;flex-shrink:0;transition:all 0.3s;}
-    .faq-item.open .faq-icon{background:var(--gold);border-color:var(--gold);color:var(--bg);transform:rotate(45deg);}
+    .faq-item.open .faq-icon{background:var(--gold);border-color:var(--gold);color:#FFFFFF;transform:rotate(45deg);}
     .faq-a{max-height:0;overflow:hidden;transition:max-height 0.4s ease,padding 0.3s;padding:0 4px;font-size:13.5px;color:var(--cream-faint);line-height:1.75;}
     .faq-item.open .faq-a{max-height:160px;padding-bottom:18px;}
 
@@ -194,7 +194,7 @@ src="https://www.facebook.com/tr?id=2272793183535149&ev=PageView&noscript=1"
     .how-to-title{font-size:13px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;color:var(--gold);margin-bottom:14px;}
     .how-to-line{font-size:14.5px;color:var(--cream-dim);line-height:2;}
     .how-to-line strong{color:var(--cream);}
-    .wa-number-box{display:flex;align-items:center;gap:8px;background:rgba(217,167,90,0.07);border:1px solid var(--line-strong);border-radius:10px;padding:12px 16px;margin-bottom:14px;}
+    .wa-number-box{display:flex;align-items:center;gap:8px;background:rgba(184,121,31,0.07);border:1px solid var(--line-strong);border-radius:10px;padding:12px 16px;margin-bottom:14px;}
     .wa-number-box span{font-size:13.5px;color:var(--cream-dim);font-weight:600;}
     .wa-msg-btn{display:flex;align-items:center;justify-content:center;gap:8px;background:linear-gradient(135deg,var(--coral),var(--gold));color:#10130F;font-size:16px;font-weight:700;padding:16px;border-radius:10px;border:none;cursor:pointer;font-family:'Manrope',sans-serif;box-shadow:0 8px 24px rgba(226,105,63,0.28);transition:all 0.3s;width:100%;margin-bottom:14px;}
     .wa-msg-btn:hover{transform:translateY(-2px);box-shadow:0 12px 30px rgba(226,105,63,0.4);}
@@ -206,11 +206,13 @@ src="https://www.facebook.com/tr?id=2272793183535149&ev=PageView&noscript=1"
     .cta-right{background:var(--bg);border:1px solid var(--line-strong);border-radius:16px;padding:24px 20px;}
     .cta-right-title{font-size:14px;font-weight:700;letter-spacing:0.5px;color:var(--cream-dim);text-align:center;margin-bottom:16px;}
 
-    footer{padding:48px 20px 40px;background:#0A0F0C;text-align:center;border-top:1px solid var(--line);}
+    footer{padding:48px 20px 40px;background:var(--bg-raised-2);text-align:center;border-top:1px solid var(--line);}
     .footer-tagline{font-size:13.5px;color:var(--cream-faint);margin-bottom:8px;}
     .footer-sign{font-family:'Fraunces',serif;font-style:italic;font-size:15px;color:var(--cream-dim);margin-bottom:18px;}
     footer a{color:var(--cream-faint);font-size:12.5px;text-decoration:none;transition:color 0.2s;font-weight:500;}
     footer a:hover{color:var(--gold);}
+    .text-link,.text-link:visited{color:var(--cream-faint);font-size:13px;text-decoration:none;transition:color 0.2s;font-weight:500;}
+    .text-link:hover{color:var(--gold);}
     .footer-powered{font-size:11.5px;letter-spacing:1px;text-transform:uppercase;font-weight:600;color:var(--cream-faint);margin-top:14px;}
 
     .sr{opacity:0;transform:translateY(22px);transition:opacity 0.6s ease,transform 0.6s ease;}
@@ -303,9 +305,9 @@ src="https://www.facebook.com/tr?id=2272793183535149&ev=PageView&noscript=1"
   <div class="hero-glow-a"></div>
   <div class="hero-glow-b"></div>
   <svg class="hero-path" viewBox="0 0 800 420" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M 40 360 C 220 360, 260 240, 400 220 C 540 200, 580 90, 760 60" stroke="#D9A75A" stroke-width="1.5" fill="none" stroke-dasharray="2 7" opacity="0.5"/>
-    <circle cx="40" cy="360" r="4" fill="#D9A75A" opacity="0.7"/>
-    <circle cx="400" cy="220" r="4" fill="#D9A75A" opacity="0.7"/>
+    <path d="M 40 360 C 220 360, 260 240, 400 220 C 540 200, 580 90, 760 60" stroke="#B8791F" stroke-width="1.5" fill="none" stroke-dasharray="2 7" opacity="0.5"/>
+    <circle cx="40" cy="360" r="4" fill="#B8791F" opacity="0.7"/>
+    <circle cx="400" cy="220" r="4" fill="#B8791F" opacity="0.7"/>
     <circle cx="760" cy="60" r="5" fill="#E2693F" opacity="0.85"/>
   </svg>
 
@@ -321,7 +323,7 @@ src="https://www.facebook.com/tr?id=2272793183535149&ev=PageView&noscript=1"
   <div class="journey-block">
     <div class="journey-label">See my journey</div>
     <div class="yt-embed" id="ytEmbed">
-      <img src="https://i.ibb.co/7tVXkSZH/Whats-App-Image-2026-06-15-at-22-06-06.jpg" alt="My Journey" onerror="this.parentElement.innerHTML='<div style=\'width:100%;aspect-ratio:16/9;background:rgba(244,239,228,0.04);border:1.5px dashed rgba(217,167,90,0.35);border-radius:16px;display:flex;align-items:center;justify-content:center;color:rgba(244,239,228,0.4);font-size:13px;\'>Add photo URL</div>'" />
+      <img src="https://i.ibb.co/7tVXkSZH/Whats-App-Image-2026-06-15-at-22-06-06.jpg" alt="My Journey" onerror="this.parentElement.innerHTML='<div style=\'width:100%;aspect-ratio:16/9;background:rgba(43,33,24,0.035);border:1.5px dashed rgba(184,121,31,0.35);border-radius:16px;display:flex;align-items:center;justify-content:center;color:rgba(43,33,24,0.4);font-size:13px;\'>Add photo URL</div>'" />
     </div>
   </div>
 
@@ -462,13 +464,13 @@ src="https://www.facebook.com/tr?id=2272793183535149&ev=PageView&noscript=1"
       <!-- CHANGE: Client Instagram username -->
       <a href="https://www.instagram.com/reel/DXfM30EE0hl/?igsh=MTlzNWJ3MHc5NGFlNQ==" target="_blank" rel="noopener"
          style="display:flex;align-items:center;justify-content:center;gap:9px;background:var(--bg-raised);border:1px solid var(--line-strong);color:var(--cream-dim);font-size:14px;font-weight:600;padding:14px;border-radius:10px;text-decoration:none;transition:all 0.3s;margin-bottom:16px;"
-         onmouseover="this.style.borderColor='rgba(217,167,90,0.4)';this.style.color='var(--cream)'"
+         onmouseover="this.style.borderColor='rgba(184,121,31,0.4)';this.style.color='var(--cream)'"
          onmouseout="this.style.borderColor='var(--line-strong)';this.style.color='var(--cream-dim)'">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
         Follow on Instagram
       </a>
       <div style="text-align:center;margin-top:8px;">
-        <a href="#" onclick="openModal('privacyModal');return false;">Privacy Policy</a>
+        <a href="#" class="text-link" onclick="openModal('privacyModal');return false;">Privacy Policy</a>
       </div>
     </div>
   </div>
@@ -479,7 +481,7 @@ src="https://www.facebook.com/tr?id=2272793183535149&ev=PageView&noscript=1"
   <div class="footer-tagline">Empower with skills · Support every vision · Dreams to direction</div>
   <!-- CHANGE: Client name -->
   <div class="footer-sign">With strength and sincerity, Versha Singh</div>
-  <a href="#" onclick="openModal('privacyModal');return false;">Privacy Policy</a>
+  <a href="#" class="text-link" onclick="openModal('privacyModal');return false;">Privacy Policy</a>
   <div class="footer-powered">Powered by Alymize</div>
 </footer>
 
