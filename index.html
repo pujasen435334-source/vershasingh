@@ -1,15 +1,15 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Versha Singh – Learn, Earn & Grow Online</title>
-  <meta name="description" content="Join Versha Singh's Skill Seekers Community. Learn digital skills, earn online, and build real financial independence." />
+  <title>Versha Singh – Learn, Earn & Grow Online ✨</title>
+  <meta name="description" content="Join Versha Singh Skill Seekers Community. Learn digital skills, earn online, and transform your life." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
 
-  <!-- Meta Pixel Code -->
+ <!-- Meta Pixel Code -->
 <script>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -28,212 +28,150 @@ src="https://www.facebook.com/tr?id=2272793183535149&ev=PageView&noscript=1"
 <!-- End Meta Pixel Code -->
 
   <style>
-    :root{
-      --bg:#FBF6ED;
-      --bg-raised:#FFFFFF;
-      --bg-raised-2:#F3E9D8;
-      --cream:#2B2118;
-      --cream-dim:rgba(43,33,24,0.64);
-      --cream-faint:rgba(43,33,24,0.42);
-      --line:rgba(43,33,24,0.10);
-      --line-strong:rgba(43,33,24,0.18);
-      --gold:#B8791F;
-      --gold-soft:rgba(184,121,31,0.13);
-      --coral:#E2693F;
-      --coral-soft:rgba(226,105,63,0.12);
-      --shadow:0 20px 50px rgba(43,33,24,0.16);
-    }
-    *,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}
-    html{scroll-behavior:smooth;overflow-x:hidden;}
-    body{font-family:'Manrope',sans-serif;background:var(--bg);color:var(--cream);overflow-x:hidden;line-height:1.5;}
-    h1,h2,h3,.serif{font-family:'Fraunces',serif;}
-    .eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:11.5px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--gold);}
-    .em{font-style:italic;font-weight:500;color:var(--gold);}
-
-    /* ===== Modals ===== */
-    .modal-overlay{display:none;position:fixed;inset:0;background:rgba(8,10,9,0.86);z-index:9999;align-items:center;justify-content:center;padding:20px;backdrop-filter:blur(8px);}
-    .modal-overlay.active{display:flex;}
-    .privacy-box{background:var(--bg-raised);border:1px solid var(--line-strong);border-radius:18px;padding:34px;max-width:500px;width:100%;position:relative;max-height:85vh;overflow-y:auto;box-shadow:var(--shadow);}
-    .modal-close{position:absolute;top:14px;right:18px;background:none;border:none;color:var(--cream-faint);font-size:22px;cursor:pointer;line-height:1;}
-    .modal-close:hover{color:var(--cream);}
-    .privacy-box h3{color:var(--gold);font-size:12.5px;font-weight:700;letter-spacing:0.5px;text-transform:uppercase;margin:18px 0 6px;}
-    .privacy-box h3:first-of-type{margin-top:0;}
-    .privacy-box p{color:var(--cream-dim);font-size:13px;line-height:1.75;}
-    .privacy-footer{margin-top:16px;font-size:11px;color:var(--cream-faint);}
-
-    .form-box{background:var(--bg-raised);border:1px solid var(--line-strong);border-radius:20px;padding:36px 30px;max-width:440px;width:100%;position:relative;box-shadow:var(--shadow);}
-    .form-box-title{font-family:'Fraunces',serif;font-size:22px;font-weight:700;color:var(--cream);text-align:center;margin-bottom:5px;}
-    .form-box-sub{font-size:12.5px;color:var(--cream-faint);text-align:center;margin-bottom:24px;}
-    .fgroup{margin-bottom:13px;}
-    .fgroup label{display:block;font-size:10px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;color:var(--cream-faint);margin-bottom:6px;}
-    .fgroup input,.fgroup select{width:100%;padding:12px 14px;background:rgba(43,33,24,0.035);border:1.5px solid var(--line-strong);border-radius:10px;font-family:'Manrope',sans-serif;font-size:13.5px;color:var(--cream);outline:none;transition:all 0.25s;-webkit-appearance:none;}
-    .fgroup input::placeholder{color:var(--cream-faint);}
-    .fgroup select option{background:var(--bg-raised);color:var(--cream);}
-    .fgroup input:focus,.fgroup select:focus{border-color:var(--gold);background:var(--gold-soft);}
-    .frow{display:grid;grid-template-columns:1fr 1fr;gap:10px;}
-    .form-send-btn{width:100%;padding:14px;background:linear-gradient(135deg,var(--coral),var(--gold));color:#10130F;font-family:'Manrope',sans-serif;font-size:14px;font-weight:700;border:none;border-radius:10px;cursor:pointer;margin-top:8px;box-shadow:0 10px 26px rgba(226,105,63,0.30);transition:all 0.3s;display:flex;align-items:center;justify-content:center;gap:8px;}
-    .form-send-btn:hover{transform:translateY(-2px);box-shadow:0 14px 32px rgba(226,105,63,0.42);}
-    .form-send-btn:disabled{opacity:0.55;cursor:not-allowed;transform:none;}
-    .form-status{text-align:center;font-size:12px;margin-top:10px;min-height:16px;color:#9AD8A8;}
-
-    /* ===== Hero ===== */
-    .hero{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;text-align:center;padding:64px 20px 56px;position:relative;overflow:hidden;background:radial-gradient(120% 80% at 50% -10%,#FFF8EA 0%,var(--bg) 60%);}
-    .hero-glow-a{position:absolute;width:640px;height:640px;background:radial-gradient(circle,rgba(184,121,31,0.16) 0%,transparent 65%);top:-220px;left:50%;transform:translateX(-50%);animation:driftA 9s ease-in-out infinite;pointer-events:none;}
-    .hero-glow-b{position:absolute;width:420px;height:420px;background:radial-gradient(circle,rgba(226,105,63,0.10) 0%,transparent 65%);bottom:-120px;right:-100px;animation:driftB 11s ease-in-out infinite;pointer-events:none;}
-    @keyframes driftA{0%,100%{transform:translateX(-50%) scale(1)}50%{transform:translateX(-50%) scale(1.12)}}
-    @keyframes driftB{0%,100%{transform:scale(1)}50%{transform:scale(1.14)}}
-    .hero-path{position:absolute;top:0;left:0;width:100%;height:420px;opacity:0.55;pointer-events:none;}
-
-    .hero-badge{display:inline-flex;align-items:center;gap:9px;background:rgba(184,121,31,0.08);border:1px solid rgba(184,121,31,0.35);color:var(--gold);font-size:11.5px;font-weight:700;letter-spacing:2px;text-transform:uppercase;padding:9px 18px;border-radius:100px;margin-bottom:28px;position:relative;z-index:1;animation:fadeUp 0.7s ease both;}
-    .live-dot{width:7px;height:7px;background:var(--coral);border-radius:50%;animation:liveBlink 1.6s infinite;}
-    @keyframes liveBlink{0%,100%{opacity:1;box-shadow:0 0 0 0 rgba(226,105,63,0.5)}50%{opacity:0.4;box-shadow:0 0 0 6px rgba(226,105,63,0)}}
-
-    .hero-count-row{display:flex;align-items:flex-end;justify-content:center;gap:6px;position:relative;z-index:1;animation:fadeUp 0.8s 0.08s ease both;}
-    .hero-count-big{font-family:'Fraunces',serif;font-size:clamp(3.4rem,13vw,6.4rem);font-weight:600;line-height:0.95;color:var(--cream);}
-    .hero-count-plus{font-family:'Fraunces',serif;font-size:clamp(1.6rem,5vw,2.6rem);font-weight:500;color:var(--gold);margin-bottom:0.4em;}
-    .hero-count-label{font-size:15px;font-weight:600;color:var(--cream-dim);margin-top:10px;position:relative;z-index:1;animation:fadeUp 0.8s 0.14s ease both;max-width:280px;}
-    .hero-tagline{font-size:13px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--cream-faint);margin-top:18px;position:relative;z-index:1;animation:fadeUp 0.8s 0.2s ease both;}
-    .hero-tagline span{color:var(--gold);margin:0 10px;}
-
-    .journey-block{position:relative;z-index:1;margin-top:36px;width:100%;max-width:480px;animation:fadeUp 0.8s 0.26s ease both;}
-    .journey-label{display:flex;align-items:center;justify-content:center;gap:8px;font-size:12px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--cream-faint);margin-bottom:14px;}
-    .journey-label::before,.journey-label::after{content:'';width:24px;height:1px;background:var(--line-strong);}
-    .yt-embed{width:100%;border-radius:16px;overflow:hidden;border:1px solid var(--line-strong);box-shadow:var(--shadow);}
-    .yt-embed img{width:100%;height:100%;object-fit:cover;display:block;}
-
-    @keyframes fadeUp{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:translateY(0)}}
-
-    .coach-inner-wrap{width:100%;max-width:480px;margin-top:48px;position:relative;z-index:1;display:flex;flex-direction:column;align-items:center;text-align:center;}
-    .coach-label{font-size:11.5px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--cream-faint);margin-bottom:18px;display:block;}
-    .coach-photo-ring{width:108px;height:108px;border-radius:50%;background:linear-gradient(135deg,var(--coral),var(--gold));padding:3px;margin:0 auto 18px;}
-    .coach-photo-inner{width:100%;height:100%;border-radius:50%;background:var(--bg-raised);display:flex;align-items:center;justify-content:center;font-size:2.6rem;overflow:hidden;}
-    .coach-photo-inner img{width:100%;height:100%;object-fit:cover;border-radius:50%;}
-    .coach-name{font-size:clamp(2rem,6vw,2.9rem);font-weight:600;color:var(--cream);margin-bottom:6px;}
-    .coach-name .em{font-weight:500;}
-    .coach-roles{display:flex;flex-wrap:wrap;gap:9px;justify-content:center;margin:18px 0 24px;}
-    .coach-role{display:flex;align-items:center;gap:6px;background:rgba(43,33,24,0.035);border:1px solid var(--line-strong);color:var(--cream-dim);font-size:13px;font-weight:600;padding:9px 16px;border-radius:100px;}
-    .coach-role svg{width:14px;height:14px;flex-shrink:0;color:var(--gold);}
-
-    .vision-card{border-left:2px solid var(--gold);background:rgba(184,121,31,0.05);border-radius:0 12px 12px 0;padding:18px 22px;max-width:440px;margin:0 auto 28px;text-align:left;}
-    .vision-title{font-size:11px;font-weight:700;color:var(--gold);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:8px;}
-    .vision-text{font-family:'Fraunces',serif;font-size:18px;font-style:italic;font-weight:500;color:var(--cream);line-height:1.5;}
-
-    .wa-connect-btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;background:linear-gradient(135deg,var(--coral),var(--gold));color:#10130F;font-size:15.5px;font-weight:700;padding:16px 0;width:100%;max-width:400px;border-radius:100px;border:none;cursor:pointer;box-shadow:0 10px 28px rgba(226,105,63,0.30);transition:all 0.3s;font-family:'Manrope',sans-serif;}
-    .wa-connect-btn:hover{transform:translateY(-2px);box-shadow:0 16px 36px rgba(226,105,63,0.42);}
-
-    .stats-vertical{display:flex;flex-direction:column;margin-top:30px;width:100%;max-width:480px;border:1px solid var(--line-strong);border-radius:14px;overflow:hidden;}
-    .stat-v-item{display:flex;align-items:center;gap:16px;padding:18px 26px;border-bottom:1px solid var(--line);text-align:left;}
-    .stat-v-item:last-child{border-bottom:none;}
-    .stat-v-icon{width:36px;height:36px;border-radius:50%;background:var(--gold-soft);display:flex;align-items:center;justify-content:center;flex-shrink:0;color:var(--gold);}
-    .stat-v-icon svg{width:17px;height:17px;}
-    .stat-v-num{font-family:'Fraunces',serif;font-size:1.6rem;font-weight:600;color:var(--cream);line-height:1;}
-    .stat-v-lbl{font-size:12.5px;color:var(--cream-faint);margin-top:3px;}
-
-    /* ===== Section shells ===== */
-    .section-header{text-align:center;padding:0 20px;margin-bottom:30px;}
-    .section-eyebrow{display:block;font-size:11.5px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;color:var(--gold);margin-bottom:10px;}
-    .section-title-main{font-family:'Fraunces',serif;font-size:clamp(1.7rem,5.6vw,2.7rem);font-weight:600;color:var(--cream);line-height:1.15;}
-    .section-subtitle{font-size:14.5px;color:var(--cream-faint);margin-top:8px;}
-
-    /* ===== Testimonials ===== */
-    .testimonials-section{padding:84px 0;background:var(--bg-raised);}
-    .marquee-outer{overflow:hidden;-webkit-mask:linear-gradient(90deg,transparent 0%,black 8%,black 92%,transparent 100%);mask:linear-gradient(90deg,transparent 0%,black 8%,black 92%,transparent 100%);}
-    .marquee-inner{display:flex;gap:16px;width:max-content;animation:slideX 32s linear infinite;}
-    .marquee-inner:hover{animation-play-state:paused;}
-    @keyframes slideX{from{transform:translateX(0)}to{transform:translateX(-50%)}}
-    .tcard{width:196px;height:380px;border-radius:14px;overflow:hidden;flex-shrink:0;position:relative;cursor:pointer;border:1px solid var(--line-strong);}
-    .tcard img{width:100%;height:100%;object-fit:cover;transition:transform 0.5s ease;display:block;}
-    .tcard:hover img{transform:scale(1.06);}
-    .tcard::after{content:'';position:absolute;inset:0;background:linear-gradient(to top,rgba(8,10,9,0.35) 0%,transparent 55%);}
-
-    /* ===== Process / benefits ===== */
-    .benefits-section{padding:84px 20px;background:var(--bg);position:relative;}
-    .process-row{position:relative;display:grid;grid-template-columns:repeat(4,1fr);gap:18px;max-width:920px;margin:0 auto;}
-    .process-row::before{content:'';position:absolute;top:21px;left:calc(12.5% );right:calc(12.5%);height:1px;background:var(--line-strong);z-index:0;}
-    .process-card{position:relative;z-index:1;background:var(--bg-raised);border:1px solid var(--line-strong);border-radius:16px;padding:26px 20px;transition:all 0.3s ease;}
-    .process-card:hover{transform:translateY(-4px);border-color:rgba(184,121,31,0.35);}
-    .process-num{font-family:'Fraunces',serif;font-size:14px;font-weight:700;color:#FFFFFF;width:42px;height:42px;border-radius:50%;background:var(--gold);display:flex;align-items:center;justify-content:center;margin-bottom:16px;}
-    .process-title{font-size:16.5px;font-weight:700;color:var(--cream);margin-bottom:7px;}
-    .process-desc{font-size:13.5px;color:var(--cream-faint);line-height:1.6;}
-    .get-started-wrap{text-align:center;margin-top:36px;}
-    .get-started-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:transparent;border:1.5px solid var(--gold);color:var(--gold);font-size:15px;font-weight:700;padding:15px 38px;border-radius:100px;cursor:pointer;font-family:'Manrope',sans-serif;transition:all 0.3s;}
-    .get-started-btn:hover{background:var(--gold-soft);transform:translateY(-2px);}
-
-    /* ===== Know your coach ===== */
-    .know-coach-section{padding:84px 20px;background:var(--bg-raised);text-align:center;}
-    .coach-stats-vertical{display:flex;flex-direction:column;max-width:420px;margin:0 auto 30px;border:1px solid var(--line-strong);border-radius:14px;overflow:hidden;}
-    .cs-v-item{display:flex;align-items:center;gap:16px;padding:20px 28px;border-bottom:1px solid var(--line);text-align:left;}
-    .cs-v-item:last-child{border-bottom:none;}
-    .cs-v-num{font-family:'Fraunces',serif;font-size:1.7rem;font-weight:600;color:var(--cream);line-height:1;}
-    .cs-v-lbl{font-size:13px;color:var(--cream-faint);margin-top:3px;}
-
-    .your-time-card{background:var(--bg);border:1px solid var(--line-strong);border-radius:18px;padding:30px 26px;max-width:460px;margin:0 auto;width:100%;}
-    .your-time-title{font-family:'Fraunces',serif;font-size:21px;font-weight:600;color:var(--cream);margin-bottom:22px;text-align:left;}
-    .your-time-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;}
-    .yt-stat{text-align:left;padding:18px 18px;background:var(--bg-raised);border-radius:12px;border:1px solid var(--line);}
-    .yt-num{font-family:'Fraunces',serif;font-size:clamp(1.3rem,4vw,1.85rem);font-weight:600;color:var(--gold);line-height:1;word-break:break-all;}
-    .yt-lbl{font-size:12.5px;color:var(--cream-faint);margin-top:7px;}
-
-    /* ===== FAQ ===== */
-    .faq-section{padding:84px 20px;background:var(--bg);}
-    .faq-list{max-width:680px;margin:30px auto 0;}
-    .faq-item{border-bottom:1px solid var(--line-strong);}
-    .faq-q{width:100%;background:none;border:none;text-align:left;padding:20px 4px;font-family:'Manrope',sans-serif;font-size:15px;font-weight:600;color:var(--cream-dim);cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:16px;transition:color 0.2s;}
-    .faq-q:hover{color:var(--cream);}
-    .faq-icon{width:26px;height:26px;border-radius:50%;background:transparent;border:1.5px solid var(--line-strong);color:var(--cream-faint);display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:600;flex-shrink:0;transition:all 0.3s;}
-    .faq-item.open .faq-icon{background:var(--gold);border-color:var(--gold);color:#FFFFFF;transform:rotate(45deg);}
-    .faq-a{max-height:0;overflow:hidden;transition:max-height 0.4s ease,padding 0.3s;padding:0 4px;font-size:13.5px;color:var(--cream-faint);line-height:1.75;}
-    .faq-item.open .faq-a{max-height:160px;padding-bottom:18px;}
-
-    /* ===== CTA ===== */
-    .cta-section{padding:84px 20px;background:var(--bg-raised);}
-    .cta-inner{max-width:820px;margin:0 auto;display:grid;grid-template-columns:1.15fr 0.85fr;gap:30px;align-items:start;}
-    .cta-left h2{font-family:'Fraunces',serif;font-size:clamp(1.8rem,4.4vw,2.5rem);font-weight:600;color:var(--cream);margin-bottom:10px;line-height:1.15;}
-    .cta-left p{font-size:15px;color:var(--cream-faint);margin-bottom:24px;line-height:1.6;}
-    .how-to-box{background:var(--bg);border:1px solid var(--line-strong);border-radius:14px;padding:22px;margin-bottom:18px;}
-    .how-to-title{font-size:13px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;color:var(--gold);margin-bottom:14px;}
-    .how-to-line{font-size:14.5px;color:var(--cream-dim);line-height:2;}
-    .how-to-line strong{color:var(--cream);}
-    .wa-number-box{display:flex;align-items:center;gap:8px;background:rgba(184,121,31,0.07);border:1px solid var(--line-strong);border-radius:10px;padding:12px 16px;margin-bottom:14px;}
-    .wa-number-box span{font-size:13.5px;color:var(--cream-dim);font-weight:600;}
-    .wa-msg-btn{display:flex;align-items:center;justify-content:center;gap:8px;background:linear-gradient(135deg,var(--coral),var(--gold));color:#10130F;font-size:16px;font-weight:700;padding:16px;border-radius:10px;border:none;cursor:pointer;font-family:'Manrope',sans-serif;box-shadow:0 8px 24px rgba(226,105,63,0.28);transition:all 0.3s;width:100%;margin-bottom:14px;}
-    .wa-msg-btn:hover{transform:translateY(-2px);box-shadow:0 12px 30px rgba(226,105,63,0.4);}
-    .within-box{background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:16px 18px;}
-    .within-title{font-size:13px;color:var(--cream-faint);margin-bottom:12px;font-weight:600;}
-    .within-item{display:flex;align-items:center;gap:9px;font-size:14px;color:var(--cream-dim);padding:8px 0;border-bottom:1px solid var(--line);}
-    .within-item:last-child{border-bottom:none;}
-    .within-check{width:18px;height:18px;border-radius:50%;background:var(--gold-soft);color:var(--gold);display:flex;align-items:center;justify-content:center;font-size:10px;flex-shrink:0;}
-    .cta-right{background:var(--bg);border:1px solid var(--line-strong);border-radius:16px;padding:24px 20px;}
-    .cta-right-title{font-size:14px;font-weight:700;letter-spacing:0.5px;color:var(--cream-dim);text-align:center;margin-bottom:16px;}
-
-    footer{padding:48px 20px 40px;background:var(--bg-raised-2);text-align:center;border-top:1px solid var(--line);}
-    .footer-tagline{font-size:13.5px;color:var(--cream-faint);margin-bottom:8px;}
-    .footer-sign{font-family:'Fraunces',serif;font-style:italic;font-size:15px;color:var(--cream-dim);margin-bottom:18px;}
-    footer a{color:var(--cream-faint);font-size:12.5px;text-decoration:none;transition:color 0.2s;font-weight:500;}
-    footer a:hover{color:var(--gold);}
-    .text-link,.text-link:visited{color:var(--cream-faint);font-size:13px;text-decoration:none;transition:color 0.2s;font-weight:500;}
-    .text-link:hover{color:var(--gold);}
-    .footer-powered{font-size:11.5px;letter-spacing:1px;text-transform:uppercase;font-weight:600;color:var(--cream-faint);margin-top:14px;}
-
-    .sr{opacity:0;transform:translateY(22px);transition:opacity 0.6s ease,transform 0.6s ease;}
-    .sr.in{opacity:1;transform:translateY(0);}
-
-    @media (max-width:780px){
-      .cta-inner{grid-template-columns:1fr;}
-      .process-row{grid-template-columns:1fr 1fr;}
-      .process-row::before{display:none;}
-    }
-    @media (max-width:560px){
-      .process-row{grid-template-columns:1fr;}
-      .your-time-grid{grid-template-columns:1fr 1fr;gap:10px;}
-      .form-box{padding:28px 20px;}
-      .stats-vertical,.coach-stats-vertical{max-width:100%;}
-      .wa-connect-btn,.get-started-btn{max-width:100%;}
-      .testimonials-section,.benefits-section,.know-coach-section,.faq-section,.cta-section{padding:64px 18px;}
-    }
-    @media (prefers-reduced-motion:reduce){
-      *{animation-duration:0.01ms !important;animation-iteration-count:1 !important;transition-duration:0.01ms !important;}
-    }
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; overflow-x: hidden; }
+    body { font-family: 'Poppins', sans-serif; background: #0a0a0a; color: #fff; overflow-x: hidden; }
+    .modal-overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.88); z-index: 9999; align-items: center; justify-content: center; padding: 20px; backdrop-filter: blur(6px); }
+    .modal-overlay.active { display: flex; }
+    .privacy-box { background: #1a1a2e; border: 1px solid rgba(255,100,130,0.25); border-radius: 20px; padding: 32px; max-width: 500px; width: 100%; position: relative; max-height: 85vh; overflow-y: auto; }
+    .modal-close { position: absolute; top: 12px; right: 16px; background: none; border: none; color: #aaa; font-size: 24px; cursor: pointer; }
+    .modal-close:hover { color: #fff; }
+    .privacy-box h3 { color: #ff6482; font-size: 13px; font-weight: 700; margin: 16px 0 5px; }
+    .privacy-box h3:first-of-type { margin-top: 0; }
+    .privacy-box p { color: rgba(255,255,255,0.65); font-size: 12px; line-height: 1.7; }
+    .privacy-footer { margin-top: 14px; font-size: 11px; color: rgba(255,255,255,0.3); }
+    .form-box { background: #13131f; border: 1px solid rgba(255,100,130,0.25); border-radius: 22px; padding: 32px 28px; max-width: 440px; width: 100%; position: relative; box-shadow: 0 30px 80px rgba(0,0,0,0.6); }
+    .form-box-title { font-size: 18px; font-weight: 800; color: #fff; text-align: center; margin-bottom: 3px; }
+    .form-box-sub { font-size: 11px; color: rgba(255,255,255,0.4); text-align: center; margin-bottom: 22px; }
+    .fgroup { margin-bottom: 12px; }
+    .fgroup label { display: block; font-size: 10px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: rgba(255,255,255,0.35); margin-bottom: 6px; }
+    .fgroup input, .fgroup select { width: 100%; padding: 11px 14px; background: rgba(255,255,255,0.06); border: 1.5px solid rgba(255,255,255,0.1); border-radius: 10px; font-family: 'Poppins', sans-serif; font-size: 13px; color: #fff; outline: none; transition: all 0.25s; -webkit-appearance: none; }
+    .fgroup input::placeholder { color: rgba(255,255,255,0.25); }
+    .fgroup select option { background: #1a1a2e; color: #fff; }
+    .fgroup input:focus, .fgroup select:focus { border-color: #ff6482; background: rgba(255,100,130,0.07); }
+    .frow { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    .form-send-btn { width: 100%; padding: 13px; background: linear-gradient(135deg, #ff6482, #c084fc); color: white; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 700; border: none; border-radius: 10px; cursor: pointer; margin-top: 6px; box-shadow: 0 6px 22px rgba(255,100,130,0.35); transition: all 0.3s; display: flex; align-items: center; justify-content: center; gap: 8px; }
+    .form-send-btn:hover { transform: translateY(-2px); box-shadow: 0 10px 30px rgba(255,100,130,0.5); }
+    .form-send-btn:disabled { opacity: 0.6; cursor: not-allowed; transform: none; }
+    .form-status { text-align: center; font-size: 12px; margin-top: 10px; min-height: 16px; color: #4ade80; }
+    .hero { min-height: 100vh; background: linear-gradient(160deg, #0d0d1a 0%, #1a0a1e 40%, #0d0d1a 100%); display: flex; flex-direction: column; align-items: center; justify-content: flex-start; text-align: center; padding: 16px 20px 48px; position: relative; overflow: hidden; }
+    .hero::before { content: ''; position: absolute; width: 600px; height: 600px; background: radial-gradient(circle, rgba(255,100,130,0.18) 0%, transparent 65%); top: -150px; left: 50%; transform: translateX(-50%); animation: orb1 7s ease-in-out infinite; pointer-events: none; }
+    .hero::after { content: ''; position: absolute; width: 400px; height: 400px; background: radial-gradient(circle, rgba(160,80,255,0.12) 0%, transparent 65%); bottom: -100px; right: -80px; animation: orb2 9s ease-in-out infinite; pointer-events: none; }
+    @keyframes orb1 { 0%,100%{transform:translateX(-50%) scale(1)} 50%{transform:translateX(-50%) scale(1.15)} }
+    @keyframes orb2 { 0%,100%{transform:scale(1)} 50%{transform:scale(1.15)} }
+    .hero-badge { display: inline-flex; align-items: center; gap: 8px; background: rgba(255,100,130,0.12); border: 1px solid rgba(255,100,130,0.45); color: #ff8fab; font-size: 13px; font-weight: 700; letter-spacing: 1px; padding: 9px 20px; border-radius: 100px; margin-bottom: 14px; margin-top: 10px; position: relative; z-index: 1; animation: fadeUp 0.7s ease both; }
+    .live-dot { width: 8px; height: 8px; background: #ff6482; border-radius: 50%; animation: liveBlink 1.5s infinite; }
+    @keyframes liveBlink { 0%,100%{opacity:1;box-shadow:0 0 0 0 rgba(255,100,130,0.5)} 50%{opacity:0.4;box-shadow:0 0 0 6px rgba(255,100,130,0)} }
+    .hero-count { font-size: clamp(1.2rem, 4.5vw, 4rem); font-weight: 900; line-height: 1; white-space: nowrap; position: relative; z-index: 1; animation: fadeUp 0.8s 0.1s ease both; background: linear-gradient(135deg, #ffffff 0%, #ff8fab 50%, #c084fc 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+    .hero-label { font-size: clamp(1rem, 2.8vw, 1.3rem); font-weight: 700; color: rgba(255,255,255,0.9); margin-top: 6px; position: relative; z-index: 1; animation: fadeUp 0.8s 0.15s ease both; }
+    .hero-tagline { font-size: 14px; color: rgba(255,255,255,0.45); margin-top: 6px; letter-spacing: 1px; position: relative; z-index: 1; animation: fadeUp 0.8s 0.2s ease both; }
+    .hero-tagline span { color: rgba(255,255,255,0.2); margin: 0 8px; }
+    .journey-block { position: relative; z-index: 1; margin-top: 16px; width: 100%; max-width: 500px; animation: fadeUp 0.8s 0.25s ease both; }
+    .journey-label { display: inline-flex; align-items: center; gap: 8px; background: rgba(255,100,130,0.10); border: 1px solid rgba(255,100,130,0.45); color: #ff8fab; font-size: 13px; font-weight: 700; padding: 8px 20px; border-radius: 100px; margin-bottom: 14px; }
+    .yt-embed { width: 100%; border-radius: 14px; overflow: hidden; aspect-ratio: auto; border: 1px solid rgba(255,255,255,0.1); box-shadow: 0 16px 48px rgba(0,0,0,0.5); }
+    .yt-embed img { width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 14px; }
+    .yt-placeholder { width: 100%; aspect-ratio: 16/9; background: rgba(255,255,255,0.04); border: 2px dashed rgba(255,100,130,0.3); border-radius: 14px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; color: rgba(255,255,255,0.3); font-size: 13px; }
+    @keyframes fadeUp { from{opacity:0;transform:translateY(22px)} to{opacity:1;transform:translateY(0)} }
+    .coach-inner-wrap { width: 100%; max-width: 500px; margin-top: 28px; position: relative; z-index: 1; display: flex; flex-direction: column; align-items: center; text-align: center; }
+    .coach-label { font-size: 24px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: #c084fc; margin-bottom: 16px; display: block; }
+    .coach-photo-ring { width: 120px; height: 120px; border-radius: 50%; background: linear-gradient(135deg, #ff6482, #c084fc); padding: 3px; margin: 0 auto 16px; animation: ringPulse 3s ease-in-out infinite; }
+    @keyframes ringPulse { 0%,100%{box-shadow:0 0 0 0 rgba(255,100,130,0.3)} 50%{box-shadow:0 0 0 12px rgba(255,100,130,0)} }
+    .coach-photo-inner { width: 100%; height: 100%; border-radius: 50%; background: linear-gradient(145deg, #2a1535, #1a0a2e); display: flex; align-items: center; justify-content: center; font-size: 3rem; overflow: hidden; }
+    .coach-photo-inner img { width: 100%; height: 100%; object-fit: cover; border-radius: 50%; }
+    .coach-name { font-size: clamp(1.8rem, 5vw, 2.8rem); font-weight: 800; background: linear-gradient(135deg, #ffffff, #ff8fab); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; margin-bottom: 14px; }
+    .coach-roles { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-bottom: 18px; }
+    .coach-role { background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12); color: rgba(255,255,255,0.9); font-size: 14px; font-weight: 600; padding: 9px 18px; border-radius: 100px; }
+    .vision-card { background: rgba(255,100,130,0.08); border: 1px solid rgba(255,100,130,0.25); border-radius: 14px; padding: 18px 22px; max-width: 480px; margin: 0 auto 20px; position: relative; }
+    .vision-card::before { content: '"'; font-size: 5rem; color: rgba(255,100,130,0.15); position: absolute; top: -8px; left: 14px; font-family: Georgia, serif; line-height: 1; }
+    .vision-title { font-size: 13px; font-weight: 700; color: #ff8fab; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 8px; }
+    .vision-text { font-size: 16px; font-weight: 600; color: rgba(255,255,255,0.9); line-height: 1.55; font-style: italic; }
+    .wa-connect-btn { display: inline-flex; align-items: center; justify-content: center; gap: 9px; background: linear-gradient(135deg, #ff6482, #c084fc); color: white; font-size: 16px; font-weight: 700; padding: 15px 0; width: 100%; max-width: 420px; border-radius: 100px; border: none; cursor: pointer; box-shadow: 0 5px 20px rgba(255,100,130,0.35); transition: all 0.3s; font-family: 'Poppins', sans-serif; }
+    .wa-connect-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 28px rgba(255,100,130,0.5); }
+    .stats-vertical { display: flex; flex-direction: column; gap: 0; margin-top: 22px; width: 100%; max-width: 500px; margin-left: auto; margin-right: auto; border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; overflow: hidden; }
+    .stat-v-item { display: flex; align-items: center; justify-content: space-between; padding: 16px 40px; border-bottom: 1px solid rgba(255,255,255,0.08); text-align: left; }
+    .stat-v-item:last-child { border-bottom: none; }
+    .stat-v-left { display: flex; flex-direction: column; }
+    .stat-v-num { font-size: 1.7rem; font-weight: 900; background: linear-gradient(135deg, #ff8fab, #c084fc); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; line-height: 1; }
+    .stat-v-lbl { font-size: 12px; color: rgba(255,255,255,0.5); margin-top: 3px; }
+    .stat-v-icon { font-size: 1.8rem; opacity: 0.75; }
+    .testimonials-section { padding: 36px 0 32px; background: #0d0d1a; overflow: hidden; }
+    .section-header { text-align: center; padding: 0 20px; margin-bottom: 22px; overflow: hidden; }
+    .section-title-main { font-size: clamp(1rem, 4.8vw, 2.8rem); font-weight: 800; color: #fff; margin-bottom: 8px; white-space: nowrap; max-width: 100%; display: block; }
+    .section-title-main.size-lg { font-size: clamp(1.2rem, 6vw, 2.8rem); }
+    .section-title-main.size-sm { font-size: clamp(1rem, 5vw, 2.6rem); }
+    .section-title-main.size-md { font-size: clamp(1rem, 5vw, 2.6rem); }
+    .section-title-main.size-xl { font-size: clamp(1.4rem, 6.5vw, 3rem); }
+    .highlight { background: linear-gradient(135deg, #ff6482, #c084fc); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+    .section-subtitle { font-size: 15px; font-weight: 500; color: rgba(255,255,255,0.55); }
+    .marquee-outer { overflow: hidden; -webkit-mask: linear-gradient(90deg, transparent 0%, black 8%, black 92%, transparent 100%); mask: linear-gradient(90deg, transparent 0%, black 8%, black 92%, transparent 100%); }
+    .marquee-inner { display: flex; gap: 14px; width: max-content; animation: slideX 15s linear infinite; }
+    .marquee-inner:hover { animation-play-state: paused; }
+    @keyframes slideX { from{transform:translateX(0)} to{transform:translateX(-50%)} }
+    .tcard { width: 200px; height: 400px; border-radius: 14px; overflow: hidden; flex-shrink: 0; position: relative; cursor: pointer; }
+    .tcard img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s ease; display: block; }
+    .tcard:hover img { transform: scale(1.07); }
+    .tcard::after { content: ''; position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,0.35) 0%, transparent 60%); }
+    .benefits-section { padding: 36px 20px 32px; background: linear-gradient(160deg, #0d0d1a, #1a0a1e 50%, #0d0d1a); }
+    .benefits-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; max-width: 760px; margin: 20px auto 0; }
+    .benefit-card { background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.09); border-radius: 14px; padding: 24px 20px; position: relative; overflow: hidden; transition: all 0.35s ease; }
+    .benefit-card:hover { transform: translateY(-4px); border-color: rgba(255,100,130,0.3); }
+    .benefit-step { width: 38px; height: 38px; background: linear-gradient(135deg, #ff6482, #c084fc); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 16px; font-weight: 800; color: white; margin-bottom: 12px; }
+    .benefit-title { font-size: 17px; font-weight: 700; color: #fff; margin-bottom: 7px; }
+    .benefit-desc { font-size: 14px; color: rgba(255,255,255,0.55); line-height: 1.6; }
+    .get-started-wrap { text-align: center; margin-top: 24px; }
+    .get-started-btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; background: linear-gradient(135deg, #ff6482, #c084fc); color: white; font-size: 16px; font-weight: 700; padding: 15px 0; width: 100%; max-width: 420px; border-radius: 100px; border: none; cursor: pointer; font-family: 'Poppins', sans-serif; box-shadow: 0 6px 22px rgba(255,100,130,0.35); transition: all 0.3s; }
+    .get-started-btn:hover { transform: translateY(-2px); box-shadow: 0 10px 28px rgba(255,100,130,0.5); }
+    .know-coach-section { padding: 36px 20px 32px; background: #0d0d1a; text-align: center; }
+    .coach-stats-vertical { display: flex; flex-direction: column; gap: 0; max-width: 440px; margin: 0 auto 22px; border: 1px solid rgba(255,255,255,0.08); border-radius: 14px; overflow: hidden; }
+    .cs-v-item { display: flex; align-items: center; justify-content: space-between; padding: 20px 36px; border-bottom: 1px solid rgba(255,255,255,0.08); }
+    .cs-v-item:last-child { border-bottom: none; }
+    .cs-v-num { font-size: 2rem; font-weight: 900; background: linear-gradient(135deg, #ff8fab, #c084fc); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; line-height: 1; }
+    .cs-v-lbl { font-size: 14px; color: rgba(255,255,255,0.55); margin-top: 4px; }
+    .cs-v-icon { font-size: 2rem; opacity: 0.85; }
+    .your-time-card { background: linear-gradient(135deg, rgba(255,100,130,0.10), rgba(192,132,252,0.10)); border: 1px solid rgba(255,100,130,0.22); border-radius: 16px; padding: 26px 20px; max-width: 480px; margin: 0 auto; overflow: hidden; box-sizing: border-box; width: 100%; }
+    .your-time-title { font-size: 21px; font-weight: 800; color: #fff; margin-bottom: 18px; }
+    .your-time-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; width: 100%; }
+    .yt-stat { text-align: center; padding: 16px 10px; background: rgba(255,255,255,0.05); border-radius: 12px; min-width: 0; overflow: hidden; }
+    .yt-num { font-size: clamp(1.2rem, 4vw, 1.9rem); font-weight: 900; background: linear-gradient(135deg, #ff8fab, #c084fc); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; line-height: 1; word-break: break-all; }
+    .yt-lbl { font-size: 13px; color: rgba(255,255,255,0.55); margin-top: 6px; }
+    .faq-section { padding: 36px 20px 32px; background: linear-gradient(160deg, #0d0d1a, #1a0a1e 50%, #0d0d1a); }
+    .faq-list { max-width: 700px; margin: 20px auto 0; }
+    .faq-item { border-bottom: 1px solid rgba(255,255,255,0.08); }
+    .faq-q { width: 100%; background: none; border: none; text-align: left; padding: 16px 6px; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 600; color: rgba(255,255,255,0.9); cursor: pointer; display: flex; justify-content: space-between; align-items: center; gap: 14px; transition: color 0.2s; }
+    .faq-q:hover { color: #ff8fab; }
+    .faq-icon { width: 26px; height: 26px; border-radius: 50%; background: rgba(255,100,130,0.1); border: 1.5px solid rgba(255,100,130,0.3); color: #ff8fab; display: flex; align-items: center; justify-content: center; font-size: 17px; font-weight: 700; flex-shrink: 0; transition: all 0.3s; }
+    .faq-item.open .faq-icon { background: #ff6482; border-color: #ff6482; color: white; transform: rotate(45deg); }
+    .faq-a { max-height: 0; overflow: hidden; transition: max-height 0.4s ease, padding 0.3s; padding: 0 6px; font-size: 13px; color: rgba(255,255,255,0.5); line-height: 1.7; }
+    .faq-item.open .faq-a { max-height: 160px; padding-bottom: 14px; }
+    .cta-section { padding: 36px 20px 32px; background: #0d0d1a; }
+    .cta-inner { max-width: 820px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 24px; align-items: start; }
+    .cta-left h2 { font-size: clamp(1.6rem, 4vw, 2.4rem); font-weight: 800; color: #fff; margin-bottom: 8px; }
+    .cta-left h2 .grad { background: linear-gradient(135deg, #ff6482, #c084fc); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+    .cta-left p { font-size: 16px; color: rgba(255,255,255,0.55); margin-bottom: 18px; line-height: 1.6; }
+    .how-to-box { background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.09); border-radius: 12px; padding: 20px; margin-bottom: 16px; }
+    .how-to-title { font-size: 17px; font-weight: 700; color: #ff8fab; margin-bottom: 12px; }
+    .how-to-line { font-size: 16px; color: rgba(255,255,255,0.75); line-height: 2.1; }
+    .how-to-line strong { color: #fff; }
+    .wa-number-box { display: flex; align-items: center; gap: 8px; background: rgba(37,211,102,0.08); border: 1px solid rgba(37,211,102,0.22); border-radius: 10px; padding: 9px 14px; margin-bottom: 12px; }
+    .wa-number-box span { font-size: 14px; color: rgba(255,255,255,0.9); font-weight: 700; }
+    .wa-msg-btn { display: flex; align-items: center; justify-content: center; gap: 8px; background: linear-gradient(135deg, #ff6482, #c084fc); color: white; font-size: 17px; font-weight: 700; padding: 15px; border-radius: 10px; border: none; cursor: pointer; font-family: 'Poppins', sans-serif; box-shadow: 0 4px 16px rgba(255,100,130,0.3); transition: all 0.3s; width: 100%; margin-bottom: 12px; }
+    .wa-msg-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(255,100,130,0.45); }
+    .within-box { background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); border-radius: 10px; padding: 14px 16px; }
+    .within-title { font-size: 15px; color: rgba(255,255,255,0.45); margin-bottom: 10px; }
+    .within-item { display: flex; align-items: center; gap: 8px; font-size: 15px; color: rgba(255,255,255,0.75); padding: 7px 0; border-bottom: 1px solid rgba(255,255,255,0.05); }
+    .within-item:last-child { border-bottom: none; }
+    .within-check { width: 20px; height: 20px; background: linear-gradient(135deg, #ff6482, #c084fc); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 10px; flex-shrink: 0; }
+    .cta-right { background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; padding: 22px 18px; }
+    .cta-right-title { font-size: 16px; font-weight: 800; color: #fff; text-align: center; margin-bottom: 4px; }
+    footer { padding: 24px 20px 36px; background: #070710; text-align: center; border-top: 1px solid rgba(255,255,255,0.06); }
+    .footer-tagline { font-size: 14px; color: #ffffff; margin-bottom: 5px; font-weight: 500; }
+    .footer-sign { font-size: 14px; color: #ffffff; margin-bottom: 14px; }
+    footer a { color: rgba(255,255,255,0.5); font-size: 13px; text-decoration: none; transition: color 0.2s; font-weight: 500; }
+    footer a:hover { color: #ff8fab; }
+    .footer-powered { font-size: 14px; font-weight: 600; color: #ffffff; margin-top: 8px; }
+    .sr { opacity: 0; transform: translateY(24px); transition: opacity 0.6s ease, transform 0.6s ease; }
+    .sr.in { opacity: 1; transform: translateY(0); }
+    @media (max-width: 640px) { .benefits-grid { grid-template-columns: 1fr; } .cta-inner { grid-template-columns: 1fr; } .your-time-grid { grid-template-columns: 1fr 1fr; gap: 10px; } .form-box { padding: 26px 18px; } .stats-vertical, .coach-stats-vertical { max-width: 100%; } .wa-connect-btn, .get-started-btn { max-width: 100%; } }
   </style>
 </head>
 <body>
@@ -258,9 +196,9 @@ src="https://www.facebook.com/tr?id=2272793183535149&ev=PageView&noscript=1"
 <div class="modal-overlay" id="formModal">
   <div class="form-box">
     <button class="modal-close" onclick="closeModal('formModal')">×</button>
-    <div class="form-box-title">Start your journey</div>
+    <div class="form-box-title">🚀 Start Your Journey</div>
     <!-- CHANGE: Replace "Mantasha" with client name -->
-    <div class="form-box-sub">Fill in your details — Mantasha will reach out within 24 hrs</div>
+    <div class="form-box-sub">Fill details — Mantasha will reach out within 24 hrs</div>
     <input type="hidden" id="formSource" value="" />
     <div class="fgroup">
       <label>Full Name *</label>
@@ -295,68 +233,45 @@ src="https://www.facebook.com/tr?id=2272793183535149&ev=PageView&noscript=1"
         <option>Other</option>
       </select>
     </div>
-    <button class="form-send-btn" id="sendBtn" onclick="submitForm()">Send to WhatsApp</button>
+    <button class="form-send-btn" id="sendBtn" onclick="submitForm()">📲 Send to WhatsApp</button>
     <div class="form-status" id="formStatus"></div>
   </div>
 </div>
 
 <!-- HERO -->
 <section class="hero">
-  <div class="hero-glow-a"></div>
-  <div class="hero-glow-b"></div>
-  <svg class="hero-path" viewBox="0 0 800 420" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M 40 360 C 220 360, 260 240, 400 220 C 540 200, 580 90, 760 60" stroke="#B8791F" stroke-width="1.5" fill="none" stroke-dasharray="2 7" opacity="0.5"/>
-    <circle cx="40" cy="360" r="4" fill="#B8791F" opacity="0.7"/>
-    <circle cx="400" cy="220" r="4" fill="#B8791F" opacity="0.7"/>
-    <circle cx="760" cy="60" r="5" fill="#E2693F" opacity="0.85"/>
-  </svg>
-
-  <div class="hero-badge"><div class="live-dot"></div>Online Earning Community</div>
-
-  <div class="hero-count-row">
-    <div class="hero-count-big" id="heroCount">0</div>
-    <div class="hero-count-plus">+</div>
-  </div>
-  <div class="hero-count-label">people learning to earn online, rising together</div>
-  <div class="hero-tagline">Learn<span>·</span>Earn<span>·</span>Grow</div>
-
+  <div class="hero-badge"><div class="live-dot"></div>🚀 Online Earning Community</div>
+  <div class="hero-count" id="heroCount">Connect with 0 People</div>
+  <div class="hero-label">Rising Together • From Zero to Online Earner</div>
+  <div class="hero-tagline">Learn<span>•</span>Earn<span>•</span>Grow</div>
   <div class="journey-block">
-    <div class="journey-label">See my journey</div>
+    <div class="journey-label">👇 See My Journey 👇</div>
     <div class="yt-embed" id="ytEmbed">
-      <img src="https://i.ibb.co/7tVXkSZH/Whats-App-Image-2026-06-15-at-22-06-06.jpg" alt="My Journey" onerror="this.parentElement.innerHTML='<div style=\'width:100%;aspect-ratio:16/9;background:rgba(43,33,24,0.035);border:1.5px dashed rgba(184,121,31,0.35);border-radius:16px;display:flex;align-items:center;justify-content:center;color:rgba(43,33,24,0.4);font-size:13px;\'>Add photo URL</div>'" />
+     <img src="https://i.ibb.co/7tVXkSZH/Whats-App-Image-2026-06-15-at-22-06-06.jpg" alt="My Journey"
+      <img src="JOURNEY_IMAGE_URL" alt="My Journey" onerror="this.parentElement.innerHTML='<div style=\'width:100%;aspect-ratio:16/9;background:rgba(255,255,255,0.04);border:2px dashed rgba(255,100,130,0.3);border-radius:14px;display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,0.3);font-size:13px;\'>📸 Add photo URL</div>'" />
     </div>
   </div>
-
   <div class="coach-inner-wrap">
-    <span class="coach-label">Your Coach</span>
+    <span class="coach-label">💫 Your Coach</span>
     <!-- CHANGE: Client name -->
-    <h2 class="coach-name">Hi, I'm <span class="em">Versha Singh</span></h2>
+    <h2 class="coach-name">Hi, I'm Versha Singh</h2>
     <div class="coach-roles">
-      <div class="coach-role"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 13l4 4L21 5"/></svg>Entrepreneur</div>
-      <div class="coach-role"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M8 21h8M12 18v3"/></svg>Freelancer</div>
-      <div class="coach-role"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r="0.5"/></svg>Online-Skills Coach</div>
+      <div class="coach-role">✅ Entrepreneur</div>
+      <div class="coach-role">💻 Freelancer</div>
+      <div class="coach-role">🎯 Online-Skills Coach</div>
     </div>
     <div class="vision-card sr">
-      <div class="vision-title">My Mission</div>
-      <div class="vision-text">Every woman deserves financial freedom.</div>
+      <div class="vision-title">🎯 My Mission:</div>
+      <div class="vision-text">"Every Woman Deserves Financial Freedom"</div>
     </div>
     <button class="wa-connect-btn sr" onclick="openFormModal('Connect Button')">
-      Connect on WhatsApp
+      📲 Connect on WhatsApp
     </button>
     <div class="stats-vertical sr">
       <!-- CHANGE: data-target numbers -->
-      <div class="stat-v-item">
-        <div class="stat-v-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 6.9L12 17.3 5.7 20.8l1.7-6.9L2 9.2l7.1-.6L12 2z"/></svg></div>
-        <div><div class="stat-v-num counter" data-target="3" data-suffix="+">0+</div><div class="stat-v-lbl">Years of Experience</div></div>
-      </div>
-      <div class="stat-v-item">
-        <div class="stat-v-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
-        <div><div class="stat-v-num counter" data-target="2000" data-suffix="+">0+</div><div class="stat-v-lbl">Students Helped</div></div>
-      </div>
-      <div class="stat-v-item">
-        <div class="stat-v-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3h12M6 8h12M9 13h6M9 13c0 4 6 4 6 8M9 13c0-4 6-4 6-8"/></svg></div>
-        <div><div class="stat-v-num counter" data-target="100000" data-prefix="₹" data-format="full">₹0</div><div class="stat-v-lbl">Monthly Earning</div></div>
-      </div>
+      <div class="stat-v-item"><div class="stat-v-left"><div class="stat-v-num counter" data-target="3" data-suffix="+">0+</div><div class="stat-v-lbl">Years of Experience</div></div><div class="stat-v-icon">⭐</div></div>
+      <div class="stat-v-item"><div class="stat-v-left"><div class="stat-v-num counter" data-target="2000" data-suffix="+">0+</div><div class="stat-v-lbl">Students Helped</div></div><div class="stat-v-icon">👥</div></div>
+      <div class="stat-v-item"><div class="stat-v-left"><div class="stat-v-num counter" data-target="100000" data-prefix="₹" data-format="full">₹0</div><div class="stat-v-lbl">Monthly Earning</div></div><div class="stat-v-icon">💰</div></div>
     </div>
   </div>
 </section>
@@ -364,49 +279,40 @@ src="https://www.facebook.com/tr?id=2272793183535149&ev=PageView&noscript=1"
 <!-- TESTIMONIALS -->
 <section class="testimonials-section">
   <div class="section-header sr">
-    <span class="section-eyebrow">Real stories</span>
-    <h2 class="section-title-main">Success, in their own words</h2>
-    <p class="section-subtitle">Feedback shared directly by students in the community</p>
+    <h2 class="section-title-main size-lg">✨ Real <span class="highlight">Success Stories</span></h2>
+    <p class="section-subtitle">100% real feedback from real students</p>
   </div>
   <div class="marquee-outer"><div class="marquee-inner" id="row1"></div></div>
 </section>
 
-<!-- PROCESS / BENEFITS -->
+<!-- BENEFITS -->
 <section class="benefits-section">
   <div class="section-header sr">
-    <span class="section-eyebrow">How it works</span>
-    <h2 class="section-title-main">What happens when you join</h2>
+    <h2 class="section-title-main size-sm">What Happens When <span class="highlight">You Join?</span></h2>
   </div>
-  <div class="process-row">
-    <div class="process-card sr"><div class="process-num">01</div><div class="process-title">Connect</div><p class="process-desc">Direct WhatsApp access to me, no middlemen.</p></div>
-    <div class="process-card sr" style="transition-delay:.06s"><div class="process-num">02</div><div class="process-title">Learn</div><p class="process-desc">A proven, step-by-step digital skills system.</p></div>
-    <div class="process-card sr" style="transition-delay:.12s"><div class="process-num">03</div><div class="process-title">Get mentored</div><p class="process-desc">Daily guidance and an active support community.</p></div>
-    <div class="process-card sr" style="transition-delay:.18s"><div class="process-num">04</div><div class="process-title">Start earning</div><p class="process-desc">Begin applying what you learn from week one.</p></div>
+  <div class="benefits-grid">
+    <div class="benefit-card sr"><div class="benefit-step">1</div><div class="benefit-title">Instant Connection</div><p class="benefit-desc">Direct WhatsApp access to me</p></div>
+    <div class="benefit-card sr" style="transition-delay:.07s"><div class="benefit-step">2</div><div class="benefit-title">Complete Access</div><p class="benefit-desc">Proven step-by-step training system</p></div>
+    <div class="benefit-card sr" style="transition-delay:.12s"><div class="benefit-step">3</div><div class="benefit-title">Daily Mentorship</div><p class="benefit-desc">24/7 support & community access</p></div>
+    <div class="benefit-card sr" style="transition-delay:.17s"><div class="benefit-step">4</div><div class="benefit-title">Start Earning</div><p class="benefit-desc">Begin from Week 1 confidently</p></div>
   </div>
   <div class="get-started-wrap sr">
-    <button class="get-started-btn" onclick="openFormModal('Get Started Button')">Get Started Now</button>
+    <button class="get-started-btn" onclick="openFormModal('Get Started Button')">📲 Get Started Now</button>
   </div>
 </section>
 
 <!-- KNOW YOUR COACH -->
 <section class="know-coach-section">
   <div class="section-header sr">
-    <span class="section-eyebrow">About</span>
-    <h2 class="section-title-main">Know your coach</h2>
+    <h2 class="section-title-main size-xl">Know Your <span class="highlight">Coach</span></h2>
   </div>
   <div class="coach-stats-vertical sr">
     <!-- CHANGE: data-target numbers -->
-    <div class="cs-v-item">
-      <div class="stat-v-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 6.9L12 17.3 5.7 20.8l1.7-6.9L2 9.2l7.1-.6L12 2z"/></svg></div>
-      <div><div class="cs-v-num counter" data-target="3" data-suffix="+">0+</div><div class="cs-v-lbl">Years of Experience</div></div>
-    </div>
-    <div class="cs-v-item">
-      <div class="stat-v-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
-      <div><div class="cs-v-num counter" data-target="1000" data-suffix="+">0+</div><div class="cs-v-lbl">Entrepreneurs Reached</div></div>
-    </div>
+    <div class="cs-v-item"><div><div class="cs-v-num counter" data-target="3" data-suffix="+">0+</div><div class="cs-v-lbl">Years of Experience</div></div><div class="cs-v-icon">⭐</div></div>
+    <div class="cs-v-item"><div><div class="cs-v-num counter" data-target="1000" data-suffix="+">0+</div><div class="cs-v-lbl">Entrepreneurs Reached</div></div><div class="cs-v-icon">👥</div></div>
   </div>
   <div class="your-time-card sr">
-    <div class="your-time-title">Now it's your time</div>
+    <div class="your-time-title">🔥 Now it's YOUR time</div>
     <div class="your-time-grid">
       <!-- CHANGE: data-target numbers -->
       <div class="yt-stat"><div class="yt-num counter" data-target="1600000" data-prefix="₹" data-format="full">₹0</div><div class="yt-lbl">Earned by Students</div></div>
@@ -418,18 +324,17 @@ src="https://www.facebook.com/tr?id=2272793183535149&ev=PageView&noscript=1"
 <!-- FAQ -->
 <section class="faq-section">
   <div class="section-header sr">
-    <span class="section-eyebrow">Questions</span>
-    <h2 class="section-title-main">Frequently asked</h2>
+    <h2 class="section-title-main size-md">Frequently Asked <span class="highlight">Questions</span></h2>
   </div>
   <div class="faq-list sr">
-    <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">What kind of work will I be doing? <span class="faq-icon">+</span></button><div class="faq-a">Digital skills: website design, graphics, editing, content creation, monetization, and more. 100% legitimate.</div></div>
-    <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">Is this program legitimate and safe? <span class="faq-icon">+</span></button><div class="faq-a">Genuine training, with 2000+ students having gone through the program. You're welcome to verify credentials before joining.</div></div>
-    <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">How much time daily? <span class="faq-icon">+</span></button><div class="faq-a">Just 1–2 hours a day. Flexible enough to fit around your existing schedule.</div></div>
-    <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">When will I start earning? <span class="faq-icon">+</span></button><div class="faq-a">Most students see their first earnings within a month, with more consistent income building over 1–2 months.</div></div>
-    <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">Any prior experience needed? <span class="faq-icon">+</span></button><div class="faq-a">None. Every step is explained with hands-on, beginner-friendly guidance.</div></div>
-    <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">What support do I get after joining? <span class="faq-icon">+</span></button><div class="faq-a">Daily mentorship, WhatsApp support, weekly calls, and access to the full community.</div></div>
-    <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">Is there a fee involved? <span class="faq-icon">+</span></button><div class="faq-a">A one-time fee covers the full program. No hidden costs.</div></div>
-    <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">Can I do this alongside my job or studies? <span class="faq-icon">+</span></button><div class="faq-a">Yes. The program is designed for busy people to learn in their free time.</div></div>
+    <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">What kind of work will I be doing? <span class="faq-icon">+</span></button><div class="faq-a">Digital skills: Website Design, Graphics, Editing, Content Creation, Monetization, etc. 100% legitimate.</div></div>
+    <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">Is this program legitimate & safe? <span class="faq-icon">+</span></button><div class="faq-a">Genuine training. 2000+ students earning consistently. Verify credentials.</div></div>
+    <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">How much time daily? <span class="faq-icon">+</span></button><div class="faq-a">Just 1-2 hours daily. Flexible for everyone.</div></div>
+    <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">When will I start earning? <span class="faq-icon">+</span></button><div class="faq-a">Within 1 month. Sustainable income in 1-2 months.</div></div>
+    <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">Any prior experience needed? <span class="faq-icon">+</span></button><div class="faq-a">No experience needed! Step-by-step guidance provided.</div></div>
+    <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">What support after joining? <span class="faq-icon">+</span></button><div class="faq-a">Daily mentorship, 24/7 WhatsApp, weekly calls & community.</div></div>
+    <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">Any investment required? <span class="faq-icon">+</span></button><div class="faq-a">Nominal fee covers everything. No hidden costs.</div></div>
+    <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">Can I do this alongside job/studies? <span class="faq-icon">+</span></button><div class="faq-a">Yes! Designed for busy people. Learn in free time.</div></div>
   </div>
 </section>
 
@@ -437,40 +342,44 @@ src="https://www.facebook.com/tr?id=2272793183535149&ev=PageView&noscript=1"
 <section class="cta-section">
   <div class="cta-inner">
     <div class="cta-left sr">
-      <h2>Ready to <span class="em">transform your life?</span></h2>
-      <p>Join a growing community on the path to financial independence.</p>
+      <h2>Ready to <span class="grad">Transform Your Life?</span></h2>
+      <p>Join thousands on their journey to financial independence</p>
       <div class="how-to-box">
-        <div class="how-to-title">How to start</div>
-        <div class="how-to-line">Message me on WhatsApp with:</div>
-        <div class="how-to-line"><strong>Name:</strong> Full Name</div>
-        <div class="how-to-line"><strong>Age:</strong> Your Age</div>
-        <div class="how-to-line"><strong>Profession:</strong> Current Status</div>
+        <div class="how-to-title">📲 How to Start?</div>
+        <div class="how-to-line">Simply message me on WhatsApp:</div><br/>
+        <div class="how-to-line"><strong>📝 Name:</strong> Full Name</div>
+        <div class="how-to-line"><strong>🎂 Age:</strong> Your Age</div>
+        <div class="how-to-line"><strong>💼 Profession:</strong> Current Status</div>
       </div>
       <!-- CHANGE: Client WhatsApp number -->
       <div class="wa-number-box">
-        <span>Save my number: <strong>9826989492</strong></span>
+        <span>📌 Save My Number: <strong>9826989492</strong></span>
       </div>
       <button class="wa-msg-btn" onclick="openFormModal('Message Button')">
-        Message on WhatsApp Now
+        📲 Message on WhatsApp Now
       </button>
       <div class="within-box">
-        <div class="within-title">Within 24 hours, you'll get:</div>
-        <div class="within-item"><div class="within-check">✓</div> A complete breakdown of details</div>
-        <div class="within-item"><div class="within-check">✓</div> A clear roadmap to get started</div>
+        <div class="within-title">⏳ Within 24 hours:</div>
+        <div class="within-item"><div class="within-check">✓</div> 📋 Complete Details</div>
+        <div class="within-item"><div class="within-check">✓</div> 🗺 Clear Roadmap</div>
       </div>
     </div>
     <div class="cta-right sr" style="transition-delay:.1s">
-      <div class="cta-right-title">Stay connected</div>
+      <div class="cta-right-title">Stay Connected 📸</div>
       <!-- CHANGE: Client Instagram username -->
       <a href="https://www.instagram.com/reel/DXfM30EE0hl/?igsh=MTlzNWJ3MHc5NGFlNQ==" target="_blank" rel="noopener"
-         style="display:flex;align-items:center;justify-content:center;gap:9px;background:var(--bg-raised);border:1px solid var(--line-strong);color:var(--cream-dim);font-size:14px;font-weight:600;padding:14px;border-radius:10px;text-decoration:none;transition:all 0.3s;margin-bottom:16px;"
-         onmouseover="this.style.borderColor='rgba(184,121,31,0.4)';this.style.color='var(--cream)'"
-         onmouseout="this.style.borderColor='var(--line-strong)';this.style.color='var(--cream-dim)'">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+         style="display:flex;align-items:center;justify-content:center;gap:9px;background:linear-gradient(135deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888);color:white;font-size:14px;font-weight:700;padding:14px;border-radius:10px;text-decoration:none;transition:all 0.3s;margin-bottom:14px;"
+         onmouseover="this.style.opacity='0.88';this.style.transform='translateY(-2px)'"
+         onmouseout="this.style.opacity='1';this.style.transform='translateY(0)'">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="white"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
         Follow on Instagram
       </a>
-      <div style="text-align:center;margin-top:8px;">
-        <a href="#" class="text-link" onclick="openModal('privacyModal');return false;">Privacy Policy</a>
+      <div style="text-align:center;margin-top:6px;">
+        <a href="#" onclick="openModal('privacyModal');return false;"
+           style="color:rgba(255,255,255,0.4);font-size:13px;text-decoration:none;transition:color 0.2s;"
+           onmouseover="this.style.color='#ff8fab'" onmouseout="this.style.color='rgba(255,255,255,0.4)'">
+          🔒 Privacy Policy
+        </a>
       </div>
     </div>
   </div>
@@ -478,11 +387,10 @@ src="https://www.facebook.com/tr?id=2272793183535149&ev=PageView&noscript=1"
 
 <!-- FOOTER -->
 <footer>
-  <div class="footer-tagline">Empower with skills · Support every vision · Dreams to direction</div>
+  <div class="footer-tagline">🌟 Empower with skills • 🌈 Support every vision • 🚀 Dreams to direction</div>
   <!-- CHANGE: Client name -->
-  <div class="footer-sign">With strength and sincerity, Versha Singh</div>
-  <a href="#" class="text-link" onclick="openModal('privacyModal');return false;">Privacy Policy</a>
-  <div class="footer-powered">Powered by Alymize</div>
+  <div class="footer-sign">❤️ With Strength & Sincerity, Versha Singh</div>
+  <div class="footer-powered">Powered by <strong>Alymize</strong></div>
 </footer>
 
 <script>
@@ -508,9 +416,11 @@ src="https://www.facebook.com/tr?id=2272793183535149&ev=PageView&noscript=1"
 
   /* ══ DO NOT CHANGE BELOW THIS LINE ══ */
 
-  function openModal(id){document.getElementById(id).classList.add('active');document.body.style.overflow='hidden';}
-  function closeModal(id){document.getElementById(id).classList.remove('active');document.body.style.overflow='';}
-  function openFormModal(source){
+  // Image version — no YouTube embed needed
+
+  function openModal(id)  { document.getElementById(id).classList.add('active'); document.body.style.overflow='hidden'; }
+  function closeModal(id) { document.getElementById(id).classList.remove('active'); document.body.style.overflow=''; }
+  function openFormModal(source) {
     clearForm();
     document.getElementById('formSource').value = source || 'Unknown';
     openModal('formModal');
@@ -520,33 +430,33 @@ src="https://www.facebook.com/tr?id=2272793183535149&ev=PageView&noscript=1"
   });
   document.addEventListener('keydown', e=>{ if(e.key==='Escape'){ closeModal('formModal'); closeModal('privacyModal'); } });
 
-  function clearForm(){
+  function clearForm() {
     ['m-name','m-phone','m-age','m-gender','m-profession'].forEach(id=>document.getElementById(id).value='');
     document.getElementById('formStatus').textContent='';
     const btn=document.getElementById('sendBtn');
-    btn.disabled=false; btn.textContent='Send to WhatsApp';
+    btn.disabled=false; btn.textContent='📲 Send to WhatsApp';
   }
 
   document.getElementById('m-phone').addEventListener('input', function(){
     this.value=this.value.replace(/\D/g,'').slice(0,10);
   });
 
-  async function submitForm(){
-    const name=document.getElementById('m-name').value.trim();
-    const phone=document.getElementById('m-phone').value.trim();
-    const age=document.getElementById('m-age').value.trim();
-    const gender=document.getElementById('m-gender').value;
-    const prof=document.getElementById('m-profession').value;
-    const source=document.getElementById('formSource').value;
+  async function submitForm() {
+    const name   = document.getElementById('m-name').value.trim();
+    const phone  = document.getElementById('m-phone').value.trim();
+    const age    = document.getElementById('m-age').value.trim();
+    const gender = document.getElementById('m-gender').value;
+    const prof   = document.getElementById('m-profession').value;
+    const source = document.getElementById('formSource').value;
 
-    if(!name||!phone||!age||!gender||!prof){
-      document.getElementById('formStatus').style.color='#E2693F';
-      document.getElementById('formStatus').textContent='Please fill in all fields.';
+    if (!name||!phone||!age||!gender||!prof) {
+      document.getElementById('formStatus').style.color='#f87171';
+      document.getElementById('formStatus').textContent='⚠️ Please fill in all fields.';
       return;
     }
-    if(phone.length!==10){
-      document.getElementById('formStatus').style.color='#E2693F';
-      document.getElementById('formStatus').textContent='Phone number must be exactly 10 digits.';
+    if (phone.length!==10) {
+      document.getElementById('formStatus').style.color='#f87171';
+      document.getElementById('formStatus').textContent='⚠️ Phone number must be exactly 10 digits.';
       return;
     }
 
@@ -554,9 +464,11 @@ src="https://www.facebook.com/tr?id=2272793183535149&ev=PageView&noscript=1"
     btn.disabled=true; btn.textContent='Opening...';
     document.getElementById('formStatus').textContent='';
 
-    saveToSheet({name,phone,age,gender,profession:prof,source});
+    // Save to Google Sheet
+    saveToSheet({ name, phone, age, gender, profession: prof, source });
 
-    if(typeof fbq!=='undefined') fbq('track','Lead');
+    // Fire Meta Pixel Lead event
+    if (typeof fbq !== 'undefined') fbq('track', 'Lead');
 
     const msg=`Hello Ma'am,\n\nI am interested in this Work. Here are my details:\n\nName: ${name}\nPhone: ${phone}\nAge: ${age}\nGender: ${gender}\nProfession: ${prof}\n\nPlease share next steps. Thank you!`;
     setTimeout(()=>{
@@ -565,22 +477,22 @@ src="https://www.facebook.com/tr?id=2272793183535149&ev=PageView&noscript=1"
     },600);
   }
 
-  async function saveToSheet(data){
+  async function saveToSheet(data) {
     if(!SHEET_URL||SHEET_URL==='YOUR_GOOGLE_APPS_SCRIPT_URL_HERE') return;
-    const params='?timestamp='+encodeURIComponent(new Date().toLocaleString('en-IN'))
-      +'&name='+encodeURIComponent(data.name)
-      +'&phone='+encodeURIComponent(data.phone)
-      +'&age='+encodeURIComponent(data.age)
-      +'&gender='+encodeURIComponent(data.gender)
-      +'&profession='+encodeURIComponent(data.profession)
-      +'&source='+encodeURIComponent(data.source);
-    const url=SHEET_URL+params;
-    try{ await fetch(url,{method:'GET',mode:'no-cors'}); return; }catch(e){}
-    try{
+    const params = '?timestamp=' + encodeURIComponent(new Date().toLocaleString('en-IN'))
+      + '&name='       + encodeURIComponent(data.name)
+      + '&phone='      + encodeURIComponent(data.phone)
+      + '&age='        + encodeURIComponent(data.age)
+      + '&gender='     + encodeURIComponent(data.gender)
+      + '&profession=' + encodeURIComponent(data.profession)
+      + '&source='     + encodeURIComponent(data.source);
+    const url = SHEET_URL + params;
+    try { await fetch(url,{method:'GET',mode:'no-cors'}); return; } catch(e){}
+    try {
       await new Promise(resolve=>{
         const img=new Image(); img.onload=img.onerror=resolve; img.src=url; setTimeout(resolve,3000);
       });
-    }catch(e){}
+    } catch(e){}
   }
 
   const row1=document.getElementById('row1');
@@ -594,11 +506,11 @@ src="https://www.facebook.com/tr?id=2272793183535149&ev=PageView&noscript=1"
 
   function animateHeroCount(){
     const el=document.getElementById('heroCount');
-    const target=10000,duration=1700,startTime=performance.now();
+    const target=10000,duration=1600,startTime=performance.now();
     function easeOutExpo(t){ return t===1?1:1-Math.pow(2,-10*t); }
     function tick(now){
       const p=Math.min((now-startTime)/duration,1);
-      el.textContent=Math.floor(easeOutExpo(p)*target).toLocaleString('en-IN');
+      el.textContent=`Connect with ${Math.floor(easeOutExpo(p)*target).toLocaleString('en-IN')}+ People`;
       if(p<1) requestAnimationFrame(tick);
     }
     requestAnimationFrame(tick);
@@ -629,3 +541,4 @@ src="https://www.facebook.com/tr?id=2272793183535149&ev=PageView&noscript=1"
 </script>
 </body>
 </html>
+        
